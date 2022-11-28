@@ -40,8 +40,8 @@ agencyServiceImageVersion: "develop_20221117_173329"
 
 # ConsultingTypeService
 consultingTypesJsonPath : "consulting-type-settings"
-consultingTypeServiceImageName: "ghcr.io/onlineberatung/onlineberatung-consultingtypeservice/onlineberatung-consultingtypeservice"
-consultingTypeServiceImageVersion: "develop_20221116_164336"
+consultingTypeServiceImageName: "consultingtype-service"
+consultingTypeServiceImageVersion: "dockerimage.v.2022-11-28.m1"
 consultingTypeServiceKeycloakResource: "consultingtype-service"
 
 # Frontend
@@ -83,8 +83,9 @@ uploadServiceSpringProfilesActive: "local"
 uploadServiceKeycloakResource:  "upload-service"
 
 # User service
+
 userServiceImageName: "ghcr.io/onlineberatung/onlineberatung-userservice/onlineberatung-userservice"
-userServiceImageVersion: "develop_20221118_105158"
+userServiceImageVersion: "dockerImage.v.vic-2083_20221128v1"
 consultantImportFilename: "import/consultants.csv"
 consultantImportProtocolFilename: "import/consultants-import.txt"
 askerImportFilename: "import/askers.csv"
