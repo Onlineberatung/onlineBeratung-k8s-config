@@ -13,6 +13,7 @@ global:
   initializeDummyData: true
   useExternalMariaDb: false
   settingMainTenantSubdomainForSingleDomainMultitenancy: "not-needed"
+  migrationToolEnabled: true
 
 # CSRF
 csrfCookieProperty: "CSRF-TOKEN"
@@ -42,7 +43,6 @@ agencyServiceImageVersion: "develop_20221117_173329"
 consultingTypesJsonPath : "consulting-type-settings"
 consultingTypeServiceImageName: "ghcr.io/onlineberatung/onlineberatung-consultingtypeservice/onlineberatung-consultingtypeservice"
 consultingTypeServiceImageVersion: "develop_20221116_164336"
-consultingTypeServiceKeycloakResource: "consultingtype-service"
 
 # Frontend
 frontendImageName: "ghcr.io/onlineberatung/onlineberatung-frontend-theme/onlineberatung-frontend-theme"
@@ -118,6 +118,10 @@ adminconsoleImageVersion: "dockerImage.v.341.release-2022-11-21"
 # Statistics Service
 statisticsServiceImageName: "ghcr.io/onlineberatung/onlineberatung-statisticsservice/onlineberatung-statisticsservice"
 statisticsServiceImageVersion: "develop_20221117_155914"
+
+# Migration service
+migrationToolImageName: "ghcr.io/onlineberatung/onlineberatung-migrationtool/onlineberatung-migrationtool"
+migrationToolImageVersion: "develop_20221228_161317"
 
 online-counseling-videobackend:
   videoCallServerUrl: "video.onlineberatung.localhost"
